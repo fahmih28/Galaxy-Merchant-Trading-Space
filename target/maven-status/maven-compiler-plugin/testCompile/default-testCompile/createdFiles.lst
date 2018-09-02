@@ -1,0 +1,4 @@
+org\propspace\roman\RomanTranslatorTest.class
+org\propspace\main\AppTest.class
+org\propspace\util\StringUtilsTest.class
+org\propspace\trading\input\ProcessTradingTest.class

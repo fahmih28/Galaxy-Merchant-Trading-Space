@@ -1,0 +1,8 @@
+org\propspace\roman\RomanSymbolException.class
+org\propspace\trading\service\ProcessTradingService.class
+org\propspace\roman\RomanEnum.class
+org\propspace\main\Main.class
+org\propspace\roman\RomanTranslator.class
+org\propspace\trading\vo\Unit.class
+org\propspace\trading\vo\GalaxyTrading.class
+org\propspace\util\StringUtils.class
