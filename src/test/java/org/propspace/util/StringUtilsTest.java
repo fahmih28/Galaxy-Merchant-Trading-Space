@@ -5,6 +5,12 @@ import org.junit.Test;
 
 
 public class StringUtilsTest {
+	
+	@Test
+	public void initializeStringUtils()
+	{
+		new StringUtils();
+	}
 	@Test
 	public void isInCharshouldReturnTrue()
 	{
