@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="org.propspace.roman.RomanTranslatorTest" time="0.016" errors="0" skipped="0">
+<testsuite tests="12" failures="0" name="org.propspace.roman.RomanTranslatorTest" time="0.016" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_161\jre\bin"/>
@@ -48,7 +48,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="32"/>
     <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_161\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="user.language.format" value="id"/>
@@ -66,11 +66,16 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
+  <testcase classname="org.propspace.roman.RomanTranslatorTest" name="qualifiedNameOfRomanEnum" time="0"/>
   <testcase classname="org.propspace.roman.RomanTranslatorTest" name="testIllegalFollowedIllegalRomanThrowException" time="0"/>
   <testcase classname="org.propspace.roman.RomanTranslatorTest" name="testIllegalSubtractedRomanCharacterThrowException" time="0"/>
   <testcase classname="org.propspace.roman.RomanTranslatorTest" name="testRepeatedIllegalRomanCharacterThrowException" time="0"/>
+  <testcase classname="org.propspace.roman.RomanTranslatorTest" name="initializeClass" time="0"/>
   <testcase classname="org.propspace.roman.RomanTranslatorTest" name="testIllegalFollowedBiggerRomanThrowException" time="0"/>
   <testcase classname="org.propspace.roman.RomanTranslatorTest" name="testTranslateEmptyParamThrowException" time="0"/>
-  <testcase classname="org.propspace.roman.RomanTranslatorTest" name="testTranslateNullParamThrowException" time="0.016"/>
-  <testcase classname="org.propspace.roman.RomanTranslatorTest" name="testTranslateIllegalRomanParamThrowException" time="0"/>
+  <testcase classname="org.propspace.roman.RomanTranslatorTest" name="testTranslateNullParamThrowException" time="0"/>
+  <testcase classname="org.propspace.roman.RomanTranslatorTest" name="testTranslateShouldPrecedRomanBiggerThanNextRoman" time="0"/>
+  <testcase classname="org.propspace.roman.RomanTranslatorTest" name="testIllegalRepeatedRomanCharacterThrowException" time="0"/>
+  <testcase classname="org.propspace.roman.RomanTranslatorTest" name="testTranslateIllegalRomanParamThrowException" time="0.016"/>
+  <testcase classname="org.propspace.roman.RomanTranslatorTest" name="testTranslateShouldPrecedRomanLowerThanNextRoman" time="0"/>
 </testsuite>
