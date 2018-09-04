@@ -2,11 +2,36 @@ glob is I
 prok is V
 pish is X
 tegj is L
+dudes is X
+in is V
+here is I
+legal is L
+test is Z
+less is LS
+how are you
 glob glob Silver is 34 Credits
 glob prok Gold is 57800 Credits
 pish pish Iron is 3910 Credits
+test iron-ore is 411 Credits
+pish pish Titaniums are 311111 Credits
+in here Zinc is Priceless Man
+in here legal Copper is 55000
+how are you ?
+who is this ?
+how much is this ?
 how much is pish tegj glob glob ?
 how many Credits is glob prok Silver ?
 how many Credits is glob prok Gold ?
 how many Credits is glob prok Iron ?
+how many Credits is legal dudes in Soil ?
+how many is test ?
+how much Credits is this Gold ?
+how much Credits is this ?
+how much Credits is legal ?
+how much Credits is ?
+how much Credits is Gold ?
+how much Money is legal Gold ?
+how many Credits is test Gold ?
+how much Money is legal Silver ?
 how much wood could a woodchuck chuck if a woodchuck could chuck wood ?
+much much much water ?
